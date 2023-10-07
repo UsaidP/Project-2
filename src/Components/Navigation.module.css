@@ -1,0 +1,22 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+.navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  font-weight: 600;
+}
+.navigation ul a {
+  color: black;
+  border: 0.3px solid rgb(0, 0, 0, 0.4);
+  text-decoration: none;
+  padding: 5px;
+  &:hover {
+    color: white;
+    background: #000;
+  }
+}
