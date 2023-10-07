@@ -8,10 +8,7 @@ function App() {
     <>
       <Navbar />
       <FormContent />
-      <section className='section'>
-        <Inputs />
-        
-      </section>
+      <Inputs />
     </>
   );
 }
